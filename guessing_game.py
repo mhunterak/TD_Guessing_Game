@@ -57,7 +57,7 @@ def start_game(LOW_SCORE=999):  # pragma: no cover (tested manually)
 
     # EXTRA CREDIT
     # As a player of the game, at the start of each game I should be shown the
-    # current high score (least amount of points), so that I know what I am 
+    # current high score (least amount of points), so that I know what I am
     # supposed to beat.
     print("Can you beat the current low score of {}?".format(LOW_SCORE))
     # instantiate new Game
@@ -112,7 +112,7 @@ class Game(object):
 
         # EXTRA CREDIT
         # As a player of the game, my guess should be within the number range.
-        # If my guess is outside the guessing range 
+        # If my guess is outside the guessing range
         # I should be told to try again.
         if int(new_guess) > 10 or int(new_guess) < 1:
             print("Your guess is outside the range I was thinking of. (1-10)")
